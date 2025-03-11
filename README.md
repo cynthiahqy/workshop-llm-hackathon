@@ -1,6 +1,7 @@
 # LLM hackathon
 
-[Slides](slides-1-monash.pdf)
+- [Slides](slides-1-monash.pdf)
+- CH: Search "ASIDE:" for notes made during the live demos/workshop discussion
 
 ## Setup
 
