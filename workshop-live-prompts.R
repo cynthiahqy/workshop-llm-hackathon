@@ -53,3 +53,7 @@ chat$chat("what is today's date?")
 chat$chat("How old is Cher? Explain your working")
 
 # ASIDE: logistics of prompt engineering since one line prompts are only good for role play (e.g "pretend you are an alien"). Usually need 2-3 pages of text to get a good response.
+
+## -- different models --
+chat <- chat_ollama(model = "llama3.1:latest")
+chat$chat("Tell me three jokes about statisticians")
