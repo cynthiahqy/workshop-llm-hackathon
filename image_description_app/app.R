@@ -9,7 +9,9 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       fileInput("uploaded_image", "Upload an Image:", accept = c("image/png", "image/jpeg")),
-      textInput("user_prompt", "Enter your prompt:", ""),
+      textInput("user_prompt", 
+        "Enter your prompt:",
+        "Describe this image/diagram/sketchnote"),
       actionButton("submit", "Submit")
     ),
     mainPanel(
