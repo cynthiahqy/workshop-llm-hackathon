@@ -1,0 +1,340 @@
+> chat <- chat_gemini()
+Using model = "gemini-2.0-flash".
+> chat$chat(
++   content_image_file("images/diagram_PRITS-framework.png"),
++   "Describe this diagram"
++ )
+Here's a description of the diagram, based on the OCR and visual elements:
+
+The diagram outlines a multi-step process for working with data, likely related to data analysis or 
+cleaning. The diagram is vertically oriented, breaking down the plan into 4 steps.
+
+**1. PLAN:**
+The topmost element is labeled "PLAN," indicating an initial planning stage for the overall process.
+
+**2. RETRIEVE:**
+This step focuses on data acquisition:
+"WEB PAGES."
+*   Data is retrieved through "INDEXING" to "FETCHING" which it calls "web scraping" and includes "GET API 
+OBRES."
+*   The ultimate output is labeled "DATA OBJECTS."
+
+**3. INVESTIGATE:**
+This stage concerns data exploration and characterization:
+*   "DATA OBJECTS" and "PARADATA" are examined.
+*   The examination process includes "EXAMINE" and "CHARACTERISE".
+*   This leads to data inspection (likely to asses its usefulness) through measuring "DATA DIMENSIONS" and 
+"ATTRIBUTES" to measure "RETRIVAL SUCCESS".
+
+**4. TRANSFORM:**
+This step involves cleaning and structuring the data:
+*   "DATA OBJECTS" and "PARADATA" undergo "CLEANING".
+*   Data goes through "PARSING" to become structured.
+*   The output of this stage is "STRUOURED TABULAR DATA."
+
+**5. SUMMARISE:**
+This step deals with summarizing the data for analysis and is meant to provide insights:
+*   The "METADATA" and "OBSERVATIONS" are included as forms of summaries.
+
+Overall, the diagram represents a data pipeline, starting from raw data retrieval, moving through 
+investigation and transformation, and finally culminating in summarization. The hand-drawn style suggests a
+conceptual overview or a high-level blueprint of the process.
+
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> image_path <- "images/diagram_PRITS-framework.png"
+> chat$chat(
++   content_image_file(image_path),
++   "Describe this diagram"
++ )
+Okay, here's a detailed description of the diagram:
+
+**Overall Layout:**
+
+The diagram is a hand-drawn sketch representing a data processing pipeline. It is structured vertically, 
+with distinct stages stacked on top of each other. Each stage is enclosed within a rounded rectangle to 
+visually separate it.
+
+**Stages:**
+
+1.  **PLAN:**
+    *   At the top, in a large rounded rectangle, is the word "PLAN," indicating the initial phase of 
+and approach.
+
+2.  **RETRIEVE:**
+    *   This stage focuses on acquiring raw data.
+    *   The input is "WEB PAGES." The diagram shows an icon representing web pages.
+    *   The process involves "INDEXING" to "FETCHING", the latter process is labelled "web scraping".
+    *   The output is "DATA OBJECTS".
+
+3.  **INVESTIGATE:**
+    *   This stage involves exploring and understanding the retrieved data.
+    *   The input is "DATA OBJECTS" and "PARADATA" (metadata about the data).
+    *   "EXAMINE" and "CHARACTERISE" are written as part of the process which leads to "DATA DIMENSIONS" 
+and "ATTRIBUTES" and a measurement of "RETRIVAL SUCCESS" of the process.
+
+4.  **TRANSFORM:**
+    *   This stage focuses on preparing the data for analysis.
+    *   The input is "DATA OBJECTS" and "PARADATA" again.
+    *   The process involves "CLEANING" the data through "PARSING"
+    *   The output is "STRUCTURED TABULAR DATA," represented by a table (grid).
+
+5.  **SUMMARISE:**
+    *   This stage deals with deriving insights and presenting key findings.
+    *   "METADATA" and "OBSERVATIONS" are included as tables to assist with understanding the information.
+
+**Style and Additional Notes:**
+
+*   The hand-drawn nature suggests a preliminary design or a whiteboard-style illustration.
+*   The connections between stages are indicated with arrows, showing the flow of data.
+
+In summary, the diagram outlines a classic data pipeline, starting with data retrieval, proceeding through 
+exploration and cleaning, and concluding with data presentation in a structured and summarized format.
+
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> chat$chat(
++   content_image_file(image_path),
++   "Describe this diagram"
++ )
+Here's a description of the diagram:
+
+**Overall Style:**
+
+The diagram appears to be a hand-drawn whiteboard summary or sketch note of a presentation or discussion, 
+most likely on how to pitch ideas effectively. It combines text, doodles, and visual cues to capture key 
+points.
+
+**Elements:**
+
+ADAM" with a logo that reads "WorkLife, Adam Grant."
+*   **Title:** "HOW TO PITCH YOUR BEST IDEAS" in a prominent, eye-catching font.
+*   **General content:** A variety of points and diagrams are arranged around the title. The diagram is 
+segmented into several segments by title and connecting lines. The tone seems to be informal and 
+rounded rectangles.
+*   **Myths:** There are three "Myths" listed:
+    *   "Myth #1: Sell the Future?" (highlight the problem before presenting the solution)
+    *   "Myth #2: Pitch with "Passion"?" (passion helps but preparedness matters most)
+    *   "Myth #3: Confidence is Key?" (signal receptivity not just competence)
+*   **Text:** The text provides various tips on how to make ideas clear, high-quality, and persuasive.
+*   **Additional Points:** A section called "After the Break" has several tips: ongoing pitches, routes for
+pitches, and to remember that everyone wants you to pitch them the best idea they have heard.
+*   **Doodles and Visuals:** Lightbulb icons are used to highlight ideas. Arrows show connections between 
+concepts.
+
+**In Summary:**
+
+The diagram is a visual summary of insights and tips related to pitching ideas, likely taken from a 
+presentation or discussion by Adam Grant on WorkLife. It captures key points, strategies, and 
+considerations in an engaging and memorable way.
+
+> chat <- chat_gemini()
+Using model = "gemini-2.0-flash".
+> image_path <- "images/diagram_PRITS-framework.png"
+> chat$chat(
++   content_image_file(image_path),
++   "Describe this diagram"
++ )
+Here is a description of the diagram:
+
+**Overview:**
+The diagram outlines a process flow for data handling, likely in the context of data science or analysis. 
+It illustrates the steps involved in obtaining, understanding, transforming, and summarizing data.
+
+**Sections (Top to Bottom):**
+
+1.  **PLAN:** This is the first stage and is at the top of the diagram, this implies planning is the first 
+step for data handling.
+2.  **RETRIEVE:**
+
+The process starts by retrieving data from the web.
+    *   The input is "Web pages".
+    *   This retrieval is done using "web-scraping". The web pages are indexed and fetched
+    *   The output is "Data Objects".
+3.  **INVESTIGATE:**
+
+    *   The "Data Objects" are now examined, also data are retrieved from PARADATA
+    *   The characteristics of the "Data Objects" are determined.
+    *   The "Examine" step uses a magnifying glass icon, suggesting detailed analysis.
+    *   This leads to an internal success summary.
+4.  **TRANSFORM:**
+
+    *   Both "Data Objects" and "Paradata" are transformed, using PARSING
+    *   The transformation involves data cleaning.
+    *   The output of this step is "Structured tabular Data".
+5.  **SUMMARISE:**
+
+    *   The summarization process is fed with both "Metadata" and Observation data.
+    *   The "Metadata" icon represents documents with numbered entries, suggesting labels or descriptive 
+information.
+    *   The "Observations" icon shows a table of data, indicating a summary of findings or observations.
+
+**In summary,** the diagram portrays a data lifecycle, encompassing data retrieval, examination, 
+transformation into a structured format, and ultimately summarizing the data along with relevant metadata 
+for insights and reporting.
+
+> chat <- chat_gemini()
+Using model = "gemini-2.0-flash".
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> chat$chat(
++   content_image_file(image_path),
++   "Describe this image"
++ )
+Here's a description of the image:
+
+**Overall Impression**
+
+The image appears to be a hand-drawn or sketched infographic, possibly a visual summary of a presentation, 
+article, or discussion. It's a mix of text, simple drawings, and doodles, giving it a playful yet 
+informative feel. The main topic seems to be about how to effectively pitch ideas.
+
+**Key Elements**
+
+focus.
+*   **"Dear Adam"**: This suggests the content might be a response to a letter or query directed to Adam 
+Grant.
+*   **Work Life/TED Logo**: Indicates the content is likely associated with the Work Life podcast by Adam 
+Grant and TED.
+*   **Myths about Pitching**: There are three "myths" addressed:
+    *   Myth #1: Sell the Future?
+Passion?
+    *   Myth #3: Confidence is Key?
+*   **Counterarguments:** The infographic debunks these myths by emphasizing the importance of highlighting
+the problem before the solution, prioritizing preparedness over passion, and stressing receptivity and 
+competence over sheer confidence.
+*   **Key Concepts:** The drawing highlights concepts like "elevator pitch," "high-quality business plan," 
+"seeking advice," "humility and openness," and the importance of learning and collaborating.
+*   **"After the Break" Section:** Introduces strategies like ongoing pitches, using analogies, playing 
+catch to motivate investment, and different routes to pitching (reconception, recontextualization, and 
+amplification).
+*   **Call to Action:** "REMEMBER EVERYONE WANTS YOU TO PITCH THEM THE BEST IDEA THEY'VE EVER HEARD"
+
+**Style and Layout**
+
+*   The layout is free-flowing and non-linear, with ideas and points connected by lines, arrows, and 
+doodles.
+*   It's a combination of text and simple illustrations.
+*   Handwritten style gives it a personal and engaging feel.
+
+**Overall Message**
+
+The infographic is designed to provide practical advice on how to pitch ideas effectively, emphasizing the 
+importance of preparation, understanding the problem, and being receptive to feedback. It challenges common
+misconceptions about the role of passion and confidence in the pitching process.
+> chat <- chat_gemini()
+Using model = "gemini-2.0-flash".
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> chat$chat(
++   content_image_file(image_path),
++   #"Describe this diagram",
++   "Describe this diagram"
++ )
+Here is a description of the diagram:
+
+The diagram is a visual representation of ideas and strategies on how to pitch your best ideas effectively,
+presented in a hand-drawn, mind-map style. It is titled "HOW TO PITCH YOUR BEST IDEAS" and includes 
+annotations, questions, and advice. Key points are made throughout:
+   - "MYTH #1: SELL THE FUTURE?"
+   - "MYTH #2: PITCH WITH PASSION =?"
+   - "MYTH #3: CONFIDENCE IS KEY?"
+   - The bottom half of the diagram has the heading "AFTER THE BREAK."
+
+Several key points throughout the diagram highlight aspects of pitching:
+    - The importance of a concise elevator pitch.
+    - Emphasizing the problem before presenting the solution.
+    - Balancing passion with preparedness.
+    - Avoiding self-aggrandizing.
+    - Signaling receptivity.
+    - Motivating investment,
+    - Making unfamiliar ideas familiar, etc.
+
+The diagram also touches upon networking, collaboration, and continuous pitching.
+> chat$chat(
++   content_image_file(image_path),
++   # "Describe this diagram",
++   "Describe this image"
++ )
+Here is a description of the image:
+
+The image is a hand-drawn diagram titled "HOW TO PITCH YOUR BEST IDEAS." It appears to be a set of notes or
+ mind-map summarizing advice on how to pitch ideas effectively. It includes various interconnected thought
+bubbles, arrows, and hand-written text. At the top left it has "DEAR ADAM" along with the Work Life logo 
+and "ADAM GRANT" below it.
+
+The diagram addresses three main myths of pitching:
+
+*   **Myth #1: Sell the Future?**
+
+*   **Myth #2: Pitch with Passion =?**
+
+*   **Myth #3: Confidence is Key?**
+
+The lower section, titled "AFTER THE BREAK," offers further strategies:
+
+*   Ongoing pitches
+*   Franklin and Hollywood pitches
+*   Making unfamiliar ideas familiar
+*   Three Routes
+
+It also features phrases like "REMEMBER: EVERYONE WANTS YOU TO PITCH THEM THE BEST IDEA THEY'VE EVER 
+HEARD."
+> chat <- chat_gemini()
+Using model = "gemini-2.0-flash".
+> image_path <- "images/how-to-pitch_worklife-adam-grant.png"
+> chat$chat(
++   content_image_file(image_path),
++   # "Describe this diagram",
++   "Describe this image"
++ )
+Here's a description of the image, based on the OCR and visual elements:
+
+**Overall Impression:**
+
+The image is a visually busy, hand-drawn mind map or infographic, created as a response to a "Dear Adam" 
+question. It outlines key strategies for pitching ideas effectively.
+
+**Key Sections:**
+
+*   **Header:** Contains questions like "Can you fix our toxic culture?", "Is your team hiring? I'd be a 
+speak at our company." It indicates the origins of the questions
+this response is addressing. Also contains "I have a great investment opportunity for you!"
+
+*   **Central Title:** "HOW TO PITCH YOUR BEST IDEAS" This is the main subject of the image.
+
+*   **Myths:**
+    *   **Myth #1: Sell the Future:** Highlight the problem before presenting the solution.
+while passion helps, preparedness matters most. 
+Emphasizes the need for logical, fact-based, high-quality business plans.
+    *   **Myth #3: Confidence is Key**: Claims that signaling receptivity and competence are the real 
+goals.
+
+*   **Advice and Strategies:** The image has a number of smaller notes and drawings scattered around 
+offering specific advice. Some examples:
+    *   "Elevator pitch"
+    *   "where is the proof of need?"
+    *   "Show people what is being revolutionized"
+    *   "Cure of knowledge"
+    *   "Seek advice on sheetstorms"
+    *   "Show humility, curiosity + openness"
+    *   "Show confidence in your ability to learn what you've already figured out"
+    *   "Female founder stereotypes"
+    *   "Ask questions!"
+    *   "Ask everyone to collaborate"
+
+**"After the Break" Section:**
+
+    *   Highlights "Ongoing Pitches"
+    *   Franklin Leonard is called a "two-way conversation"
+    *   "Motivate investment and friends in shared story/idea"
+    *   "Make unfamiliar idea familiar with analogies, like Airbnb & EBay Homes"
+    *   "Routes":
+
+        *   Route #1: Reconception
+        *   Route #2: Recontextualization
+        *   Route #3: Amplification
+
+*   **Final Statement:** "REMEMBER EVERYONE WANTS YOU TO PITCH THEM THE BEST IDEA THEY'VE EVER HEARD"
+
+**Style:**
+
+The infographic is hand-drawn, using a variety of fonts, arrows, speech bubbles, and doodles. The style is 
+informal, energetic, and engaging.
