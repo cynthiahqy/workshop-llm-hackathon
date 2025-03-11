@@ -8,31 +8,34 @@ ui <- fluidPage(
   titlePanel("Image Description with Gemini"),
   sidebarLayout(
     sidebarPanel(
-      fileInput("image", "Upload an Image:", accept = c("image/png", "image/jpeg")),
+      fileInput("uploaded_image", "Upload an Image:", accept = c("image/png", "image/jpeg")),
       textInput("user_prompt", "Enter your prompt:", ""),
       actionButton("submit", "Submit")
     ),
     mainPanel(
       chat_ui("chat"),
-      uiOutput("imageDisplay")
+      uiOutput("uploaded_image")
     )
   )
 )
 
 # Define the server logic
 server <- function(input, output, session) {
-  chat <- chat_gemini(system_prompt = "You are an image description assistant.")
+  chat <- chat_gemini(system_prompt = "
+    You are an image description assistant.
+    Return all descriptions as markdown code.
+    ")
 
   observeEvent(input$submit, {
-    req(input$image)
+    req(input$uploaded_image)
     req(input$user_prompt)
 
     # Read the image
-    image_path <- input$image$datapath
+    image_path <- input$uploaded_image$datapath
 
     # Display the image
     output$imageDisplay <- renderUI({
-      img(src = input$image$datapath, width = "100%")
+      img(src = image_path, width = "100%")
     })
 
     # Pass image and prompt to Gemini
@@ -46,5 +49,4 @@ server <- function(input, output, session) {
   })
 }
 
-# Run the application
-shinyApp(ui = ui, server = server)
+shinyApp(ui, server)
