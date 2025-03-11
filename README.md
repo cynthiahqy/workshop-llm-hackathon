@@ -4,7 +4,8 @@
 
 ## ASIDES
 
-CH: used "# ASIDE:" for notes made during the live demos/workshop discussion
+- used "# ASIDE:" for notes made during the live demos/workshop discussion
+- more on prompt design: <https://ellmer.tidyverse.org/articles/prompt-design.html>
 
 ```
 ## -- ASIDE: what do you put into system prompt vs. user chat prompt?;
