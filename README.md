@@ -21,6 +21,12 @@ chat <- chat_openai("You are a terse assistant.", echo = FALSE)
 # ASIDE: logistics of prompt engineering since one line prompts are only good for role play (e.g "pretend you are an al…
 ```
 
+## IDEAS
+
+- Recipe yaml
+- RAG connected to my quarto phd-log
+- Descriptive text generator for images
+
 ## Setup
 
 You'll need the dev version of ellmer:
