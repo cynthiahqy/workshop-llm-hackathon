@@ -1,7 +1,24 @@
 # LLM hackathon
 
 - [Slides](slides-1-monash.pdf)
-- CH: Search "ASIDE:" for notes made during the live demos/workshop discussion
+
+## ASIDES
+
+CH: used "# ASIDE:" for notes made during the live demos/workshop discussion
+
+```
+## -- ASIDE: what do you put into system prompt vs. user chat prompt?;
+# - HW: don't know?; system prompt is "stronger" -- trunk of tree
+# HW: openAI has hierarchy of prompts -- that even the system prompt underneath
+# MOW: system prompt forgetten? -- HW: newer models are trying to prevent loss of system prompt
+
+# ASIDE: new "session" each time you initialise chat object
+chat <- chat_openai("You are a terse assistant.", echo = FALSE)
+# ASIDE: claude > openai for R code
+# ASIDE: edit initial prompt instead of long conversation
+# ASIDE: order of prompts can matter, getting stuck in local optima of "not knowing"
+# ASIDE: logistics of prompt engineering since one line prompts are only good for role play (e.g "pretend you are an al…
+```
 
 ## Setup
 
